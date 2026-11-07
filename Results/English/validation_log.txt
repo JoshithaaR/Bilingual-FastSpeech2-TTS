@@ -1,0 +1,2 @@
+Validation Step 500, Total Loss: 8566.4638, Mel Loss: 1.2648, Mel PostNet Loss: 1.3340, Pitch Loss: 7639.3702, Energy Loss: 924.2639, Duration Loss: 0.2309
+Validation Step 1000, Total Loss: 4622.6232, Mel Loss: 1.3952, Mel PostNet Loss: 1.4216, Pitch Loss: 3686.7733, Energy Loss: 932.6845, Duration Loss: 0.3486

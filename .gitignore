@@ -1,0 +1,18 @@
+# Large model checkpoints - distribute separately
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Training logs
+events.out.tfevents.*
+*.log
+
+# Temporary files
+.DS_Store
+Thumbs.db
