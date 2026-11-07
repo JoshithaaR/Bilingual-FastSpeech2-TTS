@@ -49,11 +49,12 @@ validation loss, while Step 3000 had the lowest mel and postnet mel losses.
 - Training steps: 1,000
 - Checkpoints: 250, 500, 750 and 1000
 
-English training logs and loss plots are included. Pitch and energy
-losses remained disproportionately large. The tested Step 500 output
-was reported as noise, and the Step 1000 inference attempt did not
-produce a WAV file. English speech synthesis is therefore not claimed
-as successful.
+English training logs, loss plots and test audio (E1, E2a, E2b, E3, E4, generated
+from the step-1000 checkpoint) are included. Pitch and energy losses remained
+disproportionately large (thousands), most likely because the stored pitch/energy
+features are not on the normalised scale the model expects, so the English output
+is not intelligible. English synthesis is therefore not claimed as successful.
+See Report/Technical_Report.pdf, Sections 5 and 8.
 
 ## Repository Structure
 
